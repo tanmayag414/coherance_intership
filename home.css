@@ -1,0 +1,374 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nav{
+    
+    padding:12px;
+    display: flex;
+    justify-content: space-around;
+    height:60px;  
+}
+a{
+    color: black;
+    text-decoration-line: none; 
+    padding: 10px;  
+}
+.registerbutton{
+    border: 1px solid ;
+    height:25px;
+    width: 70px;
+    text-align: center;
+    background-color: rgb(169, 166, 166);
+}
+main {
+    background-color: rgb(244, 238, 238);
+    height: 600px;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainbox1{
+    width:750px;
+    height: 500px;
+    background-color: white;
+    overflow:hidden;
+}
+.mainbox2{
+    padding-left: 1%;
+    width:600px;
+    height: 470px;
+    align-content: center;
+    background-color: white;   
+}
+.small4box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content:space-around;    
+}
+.smallbox{
+    height: 240px;
+    width: 360px;
+    align-content:end;
+}
+.mainbox2 button{
+    border-radius: 5px;
+    border: 0px;  
+}
+.registerbox{
+    background-color: rgb(244, 238, 238);
+    height: 500px;
+}
+.registerbox p{
+    text-align: center;
+    position: relative;
+    bottom:650px ;
+}
+#p1register{
+    font-size: x-large;
+    
+}
+#p2register{
+    font-size: 50px;
+    padding-top: 4%;
+}
+
+.regisbutton{
+    align-content: center;
+    text-align: center;
+    border: 1px solid;
+    position: relative;
+    left: 45%;
+    bottom: 650px;
+    margin-top: 3%;
+    width: 100px;
+    height: 30px;
+    background-color:rgb(182, 175, 175) ;
+
+}
+.img{
+    background-color: rgb(153, 152, 152);
+    
+}
+#img1{
+    position: relative;
+    left:7%;
+    top:1%;
+    height:15%;
+    width:5%;
+}
+#img2{
+    position: relative;
+    left:15%;
+    top:2%;
+    height:45%;
+    width: 15%;
+}
+#img3{
+    position: relative;
+    left: 10%;
+    top: 10%;
+    height: 18%;
+    width:7%;
+}
+#img4{
+    position: relative;
+    left: 90%;
+    bottom: 80%;
+    height: 15%;
+    width: 6%;
+}
+#img5{
+    position: relative;
+    left:65%;
+    bottom:80%;
+    height:45% ;
+    width: 15%;
+}
+#img6{
+    position: relative;
+    left:85%;
+    bottom:70%;
+    height:13% ;
+    width: 7%;
+}
+.coherencesection{
+    margin: 1%;
+    padding-left:6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#h1{
+    font-size: 50px;
+    padding: 2px;
+    
+}
+.readbutton{
+    border:1px solid black;
+    width: 150px;
+    height: 40px;
+   padding: 5px;
+   margin-top:50px;
+}
+.dotbox{
+    border-right: 1px dashed;
+    
+}
+.editionbox{
+    background-color: rgb(242, 239, 239);
+    height:200px;
+    width: 300px;
+    position: relative;
+    left:7%;
+    text-align: center;
+    padding-top: 1%;
+}
+.headingbox{
+    padding:8%;
+    padding-right: 0%;
+    width: 50%;
+    font-size: 65px;
+    overflow-wrap:break-word;
+    text-align: right;
+    box-shadow:inset 10px 1px 7px gray;
+}
+.subscriptionssection{
+    padding: 2%;
+}
+.subscriptionssection p{
+    text-align: center;            
+}
+.subscriptionssection h1{
+    text-align: center;            
+}
+.buysubscription{
+    text-align: center;
+    border: 2px solid ;
+    width:200px;
+    
+    position: relative;
+    left: 45%;
+}
+.subscriptionbox{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4%;
+    justify-content:space-around;
+}
+.subboxcontent{
+    padding-left: 3%;
+    
+}
+.subboxcontent h5{
+    font-size: large;
+}
+.subboxcontent p{
+    text-align: left;
+}
+.subboxsubs1{
+    padding: 2%;
+    margin: 5px;
+    height:200px;
+    width: 340px;
+    
+    background-color: rgb(244, 238, 238);
+}
+.subimage{
+    align-self:flex-end;
+    height:100px;
+    width:100px;  
+}
+.subboxsubs2{
+    padding: 2%;
+    margin: 5px;
+    height:200px;
+    width:940px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(244, 238, 238);
+}
+.Contributorssection{
+    padding: 2%;
+}
+.Contributorssection h4{
+    font-size: x-large;
+    text-align: center;
+}
+.contributionimage{
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.image1{
+    height: 100px;
+    width: 200px;
+    margin:4%;
+    background-color: rgb(244, 238, 238);
+}
+.footer{
+    background-color: rgb(244, 238, 238);
+    margin-top: 3px;
+    height: 400px;
+
+}
+.footercontent{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottomlogo{
+    padding-left: 10%;
+
+}
+.socialmedialogo{
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+hr{
+    height:2px;
+    width:90%;
+    border-width: 1px;
+    margin-left: 5%;
+    background-color:grey; 
+    
+}
+.copyright{
+display: flex;
+justify-content: center;
+padding: 1%;  
+}
+
+@media (max-width: 768px) {
+.nav {
+gap: 10px;
+font-size:15px;
+flex-direction: column;
+align-items: center;
+height:auto;
+}
+
+main {
+flex-direction: column;
+height: auto;
+}
+
+.buysubscription{
+    width: 100px;
+    
+}
+.mainbox1,
+.mainbox2 {
+width: 90%;
+margin-bottom: 20px;
+}
+
+.smallbox {
+width: 100%;
+margin-bottom: 20px;
+}
+
+.coherencesection {
+flex-direction: column;
+text-align: center;
+}
+
+.registerbox {
+
+padding: 20px;
+}
+.centercontent{
+background-color: aqua;
+height:0;
+text-align: center;
+}
+
+.headingbox{
+margin-top:10%;
+font-size:40px;
+position: relative;
+bottom:130px;
+padding-right: 0%;
+width: 100%;
+box-shadow:inset 10px 1px 7px gray;
+}
+
+.editionbox{
+width:100px;
+height: 100px;
+position: relative;
+left: -110px;
+top: 90px; 
+text-align: center;
+margin-top: 20px; 
+
+}
+
+.subscriptionbox {
+flex-direction: column;
+align-items: center;
+}
+
+.subboxsubs1,
+.subboxsubs2 {
+width: 100%;
+margin-bottom: 20px;
+}
+
+.footercontent {
+height: 340px;
+align-items: center;
+}
+
+
+}

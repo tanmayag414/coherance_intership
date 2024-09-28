@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:5px;
+    box-sizing: border-box;
+}
+.upperbox{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    height:250px;
+}
+.profileimg_name{
+    display: flex;
+    height :100px
+}
+.mainleft a{
+    color:black;
+}
+.profileimg_name img{
+    
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    background-color: gainsboro;
+    text-align: center;
+    align-content: center;
+}
+.name{
+    font-size: larger;   
+}
+#phy{
+    border: 0px solid;
+    background-color: rgba(241, 234, 234, 0.834);
+    height:20px;
+    width:auto;
+    border-radius:10px;
+}
+.button1{
+    height: 10px;
+    width:350px;
+    font-size: small;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-around;
+}
+.button2{
+    height: 10px;
+    width:300px;
+    font-size: small;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.upperside{
+    padding-right: 3%;
+}
+.searchimg{
+    height: 30px;
+    width: 300px;  
+    border:1px solid grey;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    box-shadow: 1px 1px gray;   
+}
+a{
+    text-decoration-line: none;
+    color: white;
+}
+#search{
+    padding-left: 15px;
+    color: gray;
+}
+.button3{
+   display: flex;
+   padding-top: 7%;
+}
+#contribute{
+    border: 1px solid ;
+    height:30px;
+    width: 80px;
+    color:white;
+    text-align: center;
+    background-color: rgb(84, 83, 83);
+}
+#review{
+    border: 1px solid ;
+    height:30px;
+    width: 80px;
+    margin-left: 20%;
+    text-align: center;
+    color:white;
+    background-color: rgb(84, 83, 83);
+    
+}
+.mainbox{
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.preferenceselected{
+    margin:2%;
+    padding:5%;
+    width:200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: gainsboro;
+}
+.articlebox{
+    height: 200px;
+    align-content: end;
+}
+#button{
+    border: 0px solid;
+    background-color: rgba(241, 234, 234, 0.834);
+    height:30px;
+    width:100px;
+    position: relative;
+    left:120%;
+    text-align: center;
+    border-radius:10px;
+}
+@media (max-width: 760px) {
+    .upperbox{
+        justify-content: left;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    #upperleft{
+        width: auto;
+    }
+    .profileimg_name{
+        width: 500px;
+    }
+    .profileimg_name img{
+        height: 100px;
+        width: 100px;
+    }
+    .preferenceselected{
+        width:140px;
+    }
+
+    .button1{
+        width: auto;
+        font-size: 15px;
+    }
+    #phy{
+        height: 40px;;
+    }
+    #detail{
+        margin-top: 5%;
+        font-size: larger;
+    }
+    #button{
+        left: 0;
+    }
+}

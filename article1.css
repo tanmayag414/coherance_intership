@@ -1,0 +1,356 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nav{
+    padding:12px;
+    display: flex;
+    justify-content: space-around;
+    height:60px;  
+}
+a{
+    color: black;
+    text-decoration-line: none; 
+    padding: 10px;  
+}
+
+.Coherenceapplied{
+    height:500px;
+    padding:4%;
+}
+.mainbox{
+    display: flex;
+    
+    justify-content: space-around;
+    
+}
+.imgmainbox{
+    width:30%;
+    
+    background-color: gainsboro;
+    position: relative;
+    left: 10%;
+    text-align: center;
+    align-content: center;
+}
+.content{
+    width:40%;
+}
+.content h1{
+    font-size: 50px;
+    margin-bottom: 4% ;
+}
+#para1{
+    margin-bottom: 5%;
+    font-size: large;
+}
+.bottomcontent{
+    display: flex;
+    align-items: center;
+}
+#smallpara{
+    padding-left: 15px;
+    font-size: large;
+}
+.benefits{
+    height: 330px;
+    background-color: rgb(244, 238, 238);
+    padding: 4%;
+}
+.benefits h1{
+    font-size: xx-large;
+}
+.benefitcontent{
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.point{
+    font-weight: bold;
+    font-size: large;  
+}
+.point p{
+    margin-bottom: 30px;
+}
+#sym1{
+    background-color: gray;
+    color: white;
+}
+.boxb{
+    border:2px solid gray;
+    height:25px;
+    width: 25px;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 30px;
+    align-items:center;
+    text-align:center;
+
+}
+.benefitspara{
+    width: 500px;
+    padding: 0%;
+    font-size: large;
+    
+}
+.resultbox{
+    height:500px;
+    padding: 5%;
+}
+.resultbox h1{
+    text-align: center;
+    font-size: xx-large;
+}
+.resultcontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.boxr{
+    width: 500px;
+    height:100px;
+    padding: 5%; 
+    
+}
+.boxr h3{
+    margin-top: 2%;
+    margin-bottom: 2%;  
+}
+.Positivefeedback{
+    height: 420px;
+    text-align: center;
+    margin-top: 3%;   
+}
+#p1feedback{
+    font-size: x-large;
+    font-weight: bold;
+
+}
+.centercontent h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.centercontent{
+    position: relative;
+    bottom:550px;
+}
+.imgmultipe{
+    background-color: rgb(153, 152, 152);
+    
+}
+#img1{
+    position: relative;
+    left:7%;
+    top:1%;
+    height:15%;
+    width:5%;
+}
+#img2{
+    position: relative;
+    left:15%;
+    top:2%;
+    height:45%;
+    width: 15%;
+}
+#img3{
+    position: relative;
+    left: 10%;
+    top: 10%;
+    height: 18%;
+    width:7%;
+}
+#img4{
+    position: relative;
+    left: 90%;
+    bottom: 80%;
+    height: 15%;
+    width: 6%;
+}
+#img5{
+    position: relative;
+    left:65%;
+    bottom:80%;
+    height:45% ;
+    width: 15%;
+}
+#img6{
+    position: relative;
+    left:85%;
+    bottom:70%;
+    height:13% ;
+    width: 7%;
+}
+.testimonial{
+    margin-bottom: 3%;
+    overflow: hidden;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right:0%;
+    background-color:rgb(244, 238, 238) ;
+
+}
+.testimonalcontent{
+    width:50%
+
+}
+.testimonalbox{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+#testiheading{
+    font-size: large;
+    margin-bottom: 2%;
+
+}
+.starimg{
+    margin: 1%;
+
+}
+#testipara{
+    
+    font-size:xx-large;
+
+}
+.bottomtesti{
+    margin-top: 10%;
+    display: flex;
+
+}
+.textbottom{
+    font-size: larger;
+
+}
+.bottonbutton{
+    display: flex;
+    
+    justify-content:right;
+    width: 500px;
+
+}
+.singlebutton{
+    margin:1%;
+    border:2px solid gray;
+    height:25px;
+    width: 25px;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 30px;
+    align-items:center;
+    text-align:center;
+    
+
+}
+
+.testibigimg{
+    display: flex;
+    justify-content: space-between;
+    width:400px;
+}
+.testiimgbox1{
+    width:45%;
+    align-content: center;
+    text-align: center;
+    background-color: gainsboro;
+}
+.testiimgbox2{
+    height:350px;
+    width:45%;
+    align-content: center;
+    text-align: center;
+    background-color: gray;
+}
+
+.footer{
+    background-color: rgb(244, 238, 238);
+    margin-top: 3px;
+    height: 350px;
+}
+.footercontent{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottomlogo{
+    padding-left: 10%;
+
+}
+.socialmedialogo{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+hr{
+    height:2px;
+    width:90%;
+    border-width: 1px;
+    margin-left: 5%;
+    background-color:grey; 
+    
+}
+.copyright{
+display: flex;
+justify-content: center;
+padding: 1%;  
+} 
+@media (max-width: 768px) {
+    .nav {
+        
+        gap: 10px;
+        font-size:15px;
+        flex-direction: column;
+        align-items: center;
+        height:auto;
+    }
+    
+    .imgmainbox{
+        left: 0px;
+    }
+    .Coherenceapplied{
+        height:auto;
+    }
+    .content{
+        width:350px;
+    }
+    .content h1{
+        font-size: 40px;
+    }
+    .benefits{
+        height: auto;
+    }
+    .point{
+        font-size: medium;
+        width: 100px;
+    }
+    .boxb{
+        margin-bottom: 45px;
+    }
+    .benefitspara{
+        width: 180px;
+    }
+    .resultcontent {
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxr {
+        width: 100%;
+    }
+    .testimonial {
+        padding: 2%;
+        height: auto;
+    }
+    #testipara{
+        font-size: large;  
+    }
+    .bottonbutton{
+        width: 80px;              
+    }
+    .footercontent {
+        height: 340px;
+        align-items: center;
+    }
+} 

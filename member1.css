@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nav{
+    
+    padding:12px;
+    display: flex;
+    justify-content: space-around;
+    height:60px;  
+}
+a{
+    color: black;
+    text-decoration-line: none; 
+    padding: 10px;  
+}
+
+.membership{
+    text-align: center;
+
+}
+.membership h1{
+    padding: 15px;
+    font-size: xx-large;
+}
+.membership p{
+    padding: 15px;          
+}
+.membershipbox{
+    position: relative;
+    margin: 2%;
+    padding: 2%;
+    left:10%;
+    height:300px;
+    width: 80%;
+    background-color: rgb(244, 238, 238);
+}
+.price{
+    display: flex;
+    flex-wrap: wrap;
+}
+#rs{
+    font-size: xx-large;
+}
+#month{
+    font-size: small;
+    align-self: center;
+}
+#list{
+    text-align: left;
+    padding-left: 2%;
+}
+.getstartedbutton{
+    width: 20%;
+    height: 15%;
+    align-content: center;
+    position: relative;
+    left: 70%;
+    border: 2px solid gray ;
+    
+}
+.multiplesubscription{
+    height:250px;
+    margin:2%;
+    padding: 2%;
+    background-color:rgb(244, 238, 238);
+    
+}
+.singlesub{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.getstartedbut{
+    border: 2px solid gray;
+    width: 150px;
+    height: 30px;
+    align-content: center;
+    position: relative;
+    top:50px;
+    text-align: center;
+}
+#getstart3{
+    position: relative;
+    top: 20px;
+}
+#month1{
+    font-size: large;
+    
+}
+.footer{
+    background-color: rgb(244, 238, 238);
+    margin-top: 3px;
+    height: 350px;
+
+}
+.footercontent{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottomlogo{
+    padding-left: 10%;
+
+}
+.socialmedialogo{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+hr{
+    height:2px;
+    width:90%;
+    border-width: 1px;
+    margin-left: 5%;
+    background-color:grey; 
+    
+}
+.copyright{
+display: flex;
+justify-content: center;
+padding: 1%;  
+}
+@media (max-width: 768px) {
+    .nav{
+        gap: 10px;
+font-size:15px;
+flex-direction: column;
+align-items: center;
+height:auto;
+    }
+    .membershipbox {
+        margin: 2% auto;
+        left: 0px;
+        width: 70%;
+        height:auto;
+    }
+    .singlesub{
+        text-align: center;
+        
+    }
+    .multiplesubscription{
+        height: auto;
+    }
+    .getstartedbut{
+        top:0;margin-bottom: 20%;
+    }
+    #getstart3{
+        top:0;
+    }
+    .footercontent {
+        height: 340px;
+        align-items: center;
+    }
+}

@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.resarchpage1{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.researchbox{
+    
+    width: 80%;
+    padding: 2%;
+    padding-right: 3%;
+    font-size: x-large;
+}
+.uppebox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.searchimg{
+    height: 40px;
+    width: 600px;
+    border:1px solid grey;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    box-shadow: 1px 1px gray;  
+}
+
+.upperpara{
+    padding: 2%;
+    padding-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img{
+    height:300px;
+    width: 300px;
+    background-color: gainsboro;
+    border-radius: 40%;
+    align-content: center;
+    text-align:center ;
+    
+}
+#para2{
+    margin:2%;
+}
+#search{
+    padding-left: 15px;
+    color: gray;
+}
+.researchconetent{
+    padding-top: 8%;
+}
+#para1{
+    padding-top:7%;
+    width:400px;
+}
+.button{
+    margin: 2%;
+    height: 10px;
+    width:600px;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+#phy{
+    border: 0px solid;
+    background-color: rgba(241, 234, 234, 0.834);
+    height:30px;
+    width:auto;
+    border-radius:10px;
+}
+.profilebox{
+    background-color: rgb(200, 198, 198);
+    width:20%;
+    
+}
+.profileimg_name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 10%;
+    font-size: x-large;
+    margin-bottom: 12%;
+}
+.profileimg_name img{
+    border: 1px solid rgb(74, 72, 72);
+    background-color:rgb(71, 70, 70) ;
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    text-align: center;
+    align-content: center;
+}
+.profilebox p{
+    margin-left: 7%;
+    font-size:larger;
+}
+#firstul{
+    margin:7%;
+    list-style-type: none;
+    font-size: large;
+}   
+#secondul{
+    margin-left: 17%;
+    font-size: large;
+}
+@media (max-width: 768px) {
+    
+    .button{
+        flex-wrap: wrap;
+        width:200px;
+        height: auto;
+        font-size: large;
+    }
+    
+    .researchbox{
+        width: 70%;
+    }
+    #para1, #para2{
+        font-size: large;
+    }
+    #para1{
+        width: 240px;
+    }
+    .profilebox{
+        width: 30%;
+    }
+    .profileimg_name{
+        flex-direction: column;
+        width: 100px;
+        height: auto;
+    }
+    .profileimg_name img{
+        width: 70px;
+        height: 70px;
+    }
+    
+  
+}

@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.register{
+    
+    width:400px;
+    position: relative;
+    left :40%;
+    
+   
+}
+#para{
+    margin: 5px;
+    text-align: center;
+}
+#heading{
+    text-align: center;
+    margin-top: 3%;
+}
+#para{
+    margin-top: 1%;
+}
+.form{
+    width:400px;
+    
+      
+}
+.name{
+    margin-top: 7%;
+    display: flex;
+    width:350px;
+     
+}
+.fname{
+    width:280px;
+}
+#box1{
+    width: 150px;
+}
+#box2{
+    width: 350px;
+}
+.button{
+    text-align: center;
+    align-content: center;
+    position: relative;
+    left:250px;
+    margin-top: 10%;
+    height:25px;
+    color:white;
+    width:100px;
+    border: 1px solid gray;
+    background-color: gray;
+
+}
+.button a{
+    text-decoration-line: none;
+    color:white;
+}
+.term{
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .register{
+    
+        width:300px;
+        position: relative;
+        left :30%;
+        
+       
+    }
+    
+    .name {
+        
+        flex-direction: column;
+        justify-content: none;
+        gap: 20px;
+        width:250px;
+        flex-direction: column;
+        
+    }
+    .form{
+        width: 250px;
+        padding-left: 25px;
+        margin: 0;
+    }
+    #box1{
+        width:170px;
+    }
+    #box2{
+        width: 250px;
+    }
+    
+    #otp{
+        width: 250px;
+        
+    }
+    .term{
+        position: relative;
+        left:0;
+        width:250px
+        
+    }
+    #heading{
+        width:280px;
+        position: relative;
+        left: 0px;
+    }
+    .fname{
+        width:255px;
+    }
+    .lname{
+        width:250px;
+    }
+    #para{
+        width:280px;
+        
+        
+    }
+    .button{
+        left:100px;
+        
+    }
+}
